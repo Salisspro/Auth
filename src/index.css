@@ -3,3 +3,31 @@
 @tailwind components;
 @tailwind utilities;
 
+span{
+   color: rgba(0, 102, 255, 0.845);
+   font-size: 17px;
+}
+
+/* *, ::before, ::after {
+   box-sizing: border-box;
+   border-width: 0;
+   border-style: solid;
+   border-color: #e5e7eb;
+} */
+
+.btn{
+   position: relative;
+   padding: 10px;
+   font-size: 25px;
+   width: 100px;
+   margin-bottom: 30px;
+   transform: translate(-180px);
+   
+}
+
+.nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-bottom: 5rem;
+}

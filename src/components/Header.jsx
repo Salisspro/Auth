@@ -22,7 +22,7 @@ function Header() {
    }
 
    return (
-      <div className="group bg-slate-100 p-[30px] text-slate-500 mt-5 transition-all hover:text-slate-900 duration-1000 ease-in-out ">
+      <div className="group border rounded-md p-[30px] text-slate-200 mt-5 transition-all hover:text-slate-400 duration-1000 ease-in-out m-5">
          <div onClick={handleModal}>{modal ? <button className="text-4xl">Yeaa</button> : <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, quae. Illo excepturi ut iusto aut, illum debitis, similique earum neque harum nihil tempore, quo voluptates natus ullam vitae fugit consequuntur.
 
             <span className="ml-3 text-red-600 close mt-[20px]" onClick={handleClose}>CLOSE</span>

@@ -24,7 +24,7 @@
   }
 
   .para{
-    border-radius: 100%;
+    border-radius: 10px;
     background-color: rgb(19, 87, 165);
     height: 100px;
     width: 100px;
@@ -51,3 +51,9 @@
   span{
     cursor: pointer;
   }
+
+  button, :link{
+    box-shadow: 0px 0px 10px;
+  }
+
+  
