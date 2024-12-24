@@ -5,7 +5,15 @@ function Practice() {
          <div>
 
             <span className="text-[15px]">WE ARE BORN TO MAKE COMPUTER WORKS WITHOUT TOUCH</span>
-            <h1 className="text-3xl uppercase m-10">salisspro the most dangerous programmer</h1>
+
+
+            <div className='flex'>
+               <h1 className="text-3xl uppercase m-10">salisspro the most dangerous programmer
+
+               </h1>
+               
+
+            </div>
             <p className="w-full p-3">Lorem ipsum dolor sit amet, <span>
                consectetur</span> adipisicing elit. Atque, debitis necessitatibus corrupti illo sequi labore velit, reiciendis
                placeat est at eaque iste ad repellat. Perspiciatis eos minus facilis <span>suscipit assumenda.</span></p>

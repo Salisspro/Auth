@@ -19,7 +19,7 @@ function AddFiles() {
 
 
    return (
-      <div className="mt-10 border p-[30px] hover:shadow-[0_0_10px_red] delay-100 duration-1000 transition-all rounded-lg group shadow-[0_0_10px]">
+      <div className="mt-10 border p-[30px] hover:shadow-[0_0_10px_grey] delay-100 duration-1000 transition-all rounded-lg group shadow-[0_0_10px]">
 
          {addFile ? <p>Files Added</p> : <p>No files add</p>}
 

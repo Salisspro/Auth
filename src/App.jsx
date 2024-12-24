@@ -1,9 +1,10 @@
 import './App.css'
 import AddFiles from './components/AddFiles'
-import Header from './components/Header'
 import Home from './components/Home'
 import Practice from './components/Practice'
-import Footer from './components/Footer'
+import Auth from './Auth/Auth'
+import FireStore from './Auth/FireStore'
+// import Auths from './components/Auths'
 
 function App() {
 
@@ -14,10 +15,17 @@ function App() {
       </div>
       <div className=' sm:bg-slate-900  max-w-[1500px]  max-auto flex items-center justify-center flex-wrap p-10'>
         <Practice />
-        <AddFiles />
-        <Header />
-        <Footer/>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 items-center justify-center'>
+
+          <AddFiles />
+          <Auth />
+        </div>
+        <div className='w-full'>
+
+      <FireStore />
+        </div>
       </div>
+      {/* <Auths /> */}
     </>
   )
 }
