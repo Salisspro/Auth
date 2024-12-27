@@ -30,6 +30,10 @@ function AddFiles() {
          <button className="bg-blue-800 p-4 rounded-lg " onClick={handleFile}>save file
          </button>
          <i className="fa-solid fa-arrow-right text-3xl text-slate-100"></i>
+
+         {/* {newText.map((i) => (
+            <p key={i}>{i.name}</p>
+         ))} */}
       </div>
    )
 }
